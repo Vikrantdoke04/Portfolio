@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Vikrant Doke</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>MyPortfolio</h2>
+        <div>
+            <a href="#hero">Home</a>
+            <a href="#skills">Technical Skills</a>
+            <a href="#softskills">Soft Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span style="color:#00eaff;">Vikrant Doke</span></h1>
+            <p>
+                I'm a passionate developer skilled in Java, Python, Web Development, and building real-world applications.
+            </p>
+            <button onclick="document.getElementById('skills').scrollIntoView()">My Skills</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="./vikrant_img.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">SQL</div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="softskills">
+        <h2>Soft Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Team Leadership</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Time Management</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <img src="https://www.circuitbasics.com/wp-content/uploads/2018/08/Arduino-Light-Dependent-Resistor-LDR-and-LED-Connected-to-Arduino.jpg" alt="LDR Project" />
+                <h3>Light Dependent Resistor (IoT)</h3>
+                <p>My first-year project using Arduino and IoT concepts to control LED brightness based on light levels.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.c36AYdJ3UR-tMWy0Ixm9lQHaE8?pid=Api&P=0&h=180" alt="Gold Prediction Project" />
+                <h3>Gold Price Prediction</h3>
+                <p>Internship project using Python and machine learning models to predict gold price trends.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.-9h6UUUDja4LZ_aEFJUEQwAAAA?pid=Api&P=0&h=180" alt="Bank Management Project" />
+                <h3>Bank Management System</h3>
+                <p>Java and SQL-based system to manage banking operations including account management, deposits, and withdrawals.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact: vikrantdoke08@gmail.com</p>
+        <p>© 2025 Vikrant Doke — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
